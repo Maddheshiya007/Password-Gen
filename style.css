@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    position: relative;
+}
+
+.container{
+    position: relative;
+    width: 90%;
+    max-width: 340px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+h1{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.display-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 0;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.display{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.display{
+    font-size: large;
+    font-weight: bold;
+}
+
+.rel{
+    position: relative;
+    background-color: transparent;
+    border: none;
+
+}
+
+img{
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.copy{
+    position: absolute;
+    transform: scale(0);
+}
+
+.active{
+    transform: scale(1);
+    background-color: black;
+    color: aliceblue;
+}
+
+.input-container{
+
+display: flex;
+flex-direction: column;
+gap: 1rem;
+
+}
+
+.length-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.strength-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.strngth-color{
+
+height: 2rem;
+width: 2rem;
+background-color: aliceblue;
+border-radius: 50%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.generateButton{
+
+border-radius: 5px;
+font-size: medium;
+padding: 5px;
+cursor: pointer;
+
+}
