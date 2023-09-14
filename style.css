@@ -47,11 +47,20 @@ h1{
     width: 100%;
     background-color: transparent;
     border: none;
+    
 }
 
 .display{
     font-size: large;
     font-weight: bold;
+    
+}
+.display::placeholder{
+    font-size: large;
+    font-weight: bold;
+
+    color: white;
+    
 }
 
 .rel{
